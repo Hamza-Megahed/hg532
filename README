@@ -1,5 +1,5 @@
 
-Encrypt and decrypt huawei HG532 config file
+Encrypt and decrypt huawei HG532 router config file
 
 Usage : ./hg532_config.py {encrypt | decrypt} input_file output_file 
 
