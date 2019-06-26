@@ -115,7 +115,7 @@ def decrypt_config(input_file, output_file):
 def encrypt_config(input_file, output_file):
 	new_config_file=load_config(input_file)
 
-	check_config(new_config_file)
+	#check_config(new_config_file)
 
 	padding_amount = len(new_config_file) % 32
 	print("" + str(padding_amount) + " bytes padding needed")
